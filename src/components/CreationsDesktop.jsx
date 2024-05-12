@@ -47,7 +47,7 @@ const CreationsDesktop = () => {
       {/* Render h2 and button differently based on screen size */}
       {isMobile ? (
         <div className="text-center max-w-7xl mx-auto px-8 py-12 font-josefin-sans">
-          <h2 className="text-4xl mb-8 uppercase">Our creations</h2>
+          <h2 className="text-3xl mb-8 uppercase">Our creations</h2>
           {/* <div className="mb-8">
             <button className="border-2 border-black px-10 py-2 text-black uppercase cursor-pointer transition duration-200 ease-in-out hover:bg-black hover:text-white">
               See All
@@ -55,7 +55,7 @@ const CreationsDesktop = () => {
           </div> */}
         </div>
       ) : (
-        <div className="container flex items-center justify-between max-w-7xl mx-auto px-28 py-12 font-josefin-sans">
+        <div className="container flex items-center justify-between max-w-7xl mx-auto px-28 py-12 font-josefin-sans  ">
           <h2 className="text-center text-4xl uppercase">Our creations</h2>
           <div className="">
             <button className=" border  font-bold border-black px-10 py-2 text-black uppercase cursor-pointer transition duration-200 ease-in-out hover:bg-black hover:text-white">
@@ -96,12 +96,12 @@ const CreationsDesktop = () => {
             ))}
       </div>
       {isMobile ? (
-        <div className="  px-20 ml-12  font-josefin-sans mb-12">
+        <div className="  px-20 ml-6  font-josefin-sans mb-12 ">
           <button
             className="border border-black px-10 py-2 text-black font-bold
           uppercase cursor-pointer transition duration-200 ease-in-out hover:bg-black hover:text-white"
           >
-            S e e A l l
+            See All
           </button>
         </div>
       ) : null}
