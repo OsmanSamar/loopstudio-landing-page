@@ -28,7 +28,7 @@ const Hero = () => {
           className=" mt-2 font-josefin-sans bottom-0 right-24 xl:right-52 bg-white shadow-none rounded  p-12
          w-full lg:w-auto text-center   md:text-left md:absolute lg:flex-1 lg:mt-0  "
         >
-          <h2 className="text-3xl font-bold mt-4 mb-4 md:text-4xl md:font-light text-gray-800">
+          <h2 className="text-2xl font-bold mt-4 mb-4 md:text-4xl md:font-light text-gray-800">
             THE LEADER IN<br></br> INTERACTIVE VR
           </h2>
           <p className="text-gray-700 text-pretty text-md mb-12 md:text-sm">
