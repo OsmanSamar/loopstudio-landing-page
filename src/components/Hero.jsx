@@ -31,7 +31,7 @@ const Hero = () => {
           <h2 className="text-2xl font-bold mt-4 mb-4 md:text-4xl md:font-light text-gray-800">
             THE LEADER IN<br></br> INTERACTIVE VR
           </h2>
-          <p className="text-gray-700 text-pretty text-md mb-12 md:text-sm">
+          <p className="text-gray-700 text-pretty text-sm mb-12 md:text-sm">
             Founded in 2011, Loopstudio has been producing world-class
             <br></br> virtual reality projects for some of the best companies
             around the
