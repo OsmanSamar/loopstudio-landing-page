@@ -69,7 +69,7 @@ const CreationsDesktop = () => {
       <div
         className={`grid ${
           isMobile ? "grid-cols-1" : "grid-cols-4"
-        } gap-6 px-8 md:gap-6 md:px-28 xl:px-60 pb-28`}
+        } gap-6 px-8 md:gap-6 md:px-28 xl:px-60 pb-28 lg:gap-6 xl:gap-6`}
       >
         {isMobile
           ? mobileimg.map((image) => (
