@@ -20,10 +20,10 @@ const Navbar = () => {
         {/* The ReactComponent import syntax is a special syntax used by Create
           React App for importing SVG files as React components. */}
         <Logo alt="Logo Icon" class="  " />
-        <div className="hidden space-x-6  md:flex">
+        <div className="hidden space-x-6   md:flex">
           <a
             href="#About"
-            className="text-white  hover:underline underline-offset-8"
+            className="text-white text-2xl  hover:underline underline-offset-8"
           >
             About
           </a>
