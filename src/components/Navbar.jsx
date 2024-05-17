@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className=" bg-hero-image bg-cover bg-center py-12  ">
       <div
-        className=" container flex items-center
+        className="  flex items-center
         justify-between max-w-7xl mx-auto px-14 pt-2 font-josefin-sans  md:px-24 "
       >
         {/* The ReactComponent import syntax is a special syntax used by Create
