@@ -88,8 +88,12 @@ const CreationsDesktop = () => {
                 key={image.id}
                 className="relative cursor-pointer hover:transform transition-transform hover:scale-110 hover:opacity-70 text-white hover:text-black"
               >
-                <img src={image.image} alt={image.title} />
-                <h3 className="absolute bottom-0 left-0 font-josefin-sans px-10 py-6 uppercase text-2xl">
+                <img
+                  src={image.image}
+                  alt={image.title}
+                  className="w-full h-full"
+                />
+                <h3 className="absolute bottom-0 left-0 font-josefin-sans px-10 py-6 uppercase text-2xl ">
                   {image.title}
                 </h3>
               </div>
