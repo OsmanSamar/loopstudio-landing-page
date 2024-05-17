@@ -106,7 +106,7 @@ const Navbar = () => {
 
       <h1>
         <button
-          className=" ml-[8%] border-2 border-white  text-white mt-20  p-8 w-[300px]
+          className=" ml-[10vw] border-2 border-white  text-white mt-20  p-8 w-[300px]
         font-josefin-sans text-left
         lg:text-left  md:ml-24  md:w-[415px] md:h-[194px]  text-3xl md:text-4xl lg:text-5xl  "
         >
